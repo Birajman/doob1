@@ -1,0 +1,23 @@
+.footer-bottom
+{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    ul
+    {
+        display: flex;
+        padding-left: 0;
+        li
+        {
+            margin-right: 1.6rem;
+            font-size: 1.7rem;
+            color: #acacac;
+        }
+    }
+    p
+    {
+        font-size: 1.7rem;
+        color: #acacac;
+        font-weight: 600;
+    }
+}

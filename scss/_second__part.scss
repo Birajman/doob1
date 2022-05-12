@@ -1,0 +1,49 @@
+.second__part
+{
+    padding: 7rem 0;
+    img
+    {
+        max-height: 15rem;
+        margin-bottom: 2rem;
+    }
+    h1
+    {
+        line-height: 1.19;
+        color: white;
+        font-size: 8.5rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+        span
+        {
+            background: linear-gradient(90deg, rgba(154,44,222,1) 0%, rgba(255,48,254,1) 35%, rgba(192,12,67,0.9223039557619923) 100%, rgba(0,0,0,0.9951330874146533) 100%, rgba(107,35,61,1) 100%);
+            color: transparent;
+            background-clip: text;
+-webkit-background-clip: text;
+        }
+    }
+    p
+    {
+        font-family: var(--font-primary);
+        padding: 0 22%;
+        font-size: 25px;
+        line-height: 1.7;
+        margin-bottom: 40px;
+        color: #acacac;
+        margin-bottom: 3rem;
+    }
+    button
+        {
+            line-height: 5.6rem;
+            padding: .5rem 3.7rem;
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: white;
+            border-radius: 10rem;
+            letter-spacing: .05rem;
+            background: linear-gradient(90deg, rgba(154,44,222,1) 0%, rgba(255,48,254,1) 35%, rgba(192,12,67,0.9223039557619923) 100%, rgba(0,0,0,0.9951330874146533) 100%, rgba(107,35,61,1) 100%);
+            i
+            {
+                margin-left: 1rem;
+            }
+        }
+}

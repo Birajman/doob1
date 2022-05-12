@@ -1,0 +1,40 @@
+.footer-top
+{
+    padding: 10rem 0;
+    h2
+    {
+        color: white;
+        font-weight: 700;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    h6
+    {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        color: #acacac;
+    }
+    button
+    {
+        padding: 0 28px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(154,44,222,1) 0%, rgba(255,48,254,1) 35%, rgba(192,12,67,0.9223039557619923) 100%, rgba(0,0,0,0.9951330874146533) 100%, rgba(107,35,61,1) 100%);
+    transition-duration: 300ms;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 47px;
+    letter-spacing: 0.5px;
+    transition: 0.4s;
+    color: white;
+    i
+    {
+        margin-left: 1rem;
+    }
+    }
+}

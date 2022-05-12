@@ -1,0 +1,59 @@
+.navbar
+{
+    background-color: #060606;
+    align-items: center;
+    &-brand
+    {
+        
+        img
+        {
+            max-height: 4.5rem;
+        }
+    }
+    &-nav
+    {
+        .nav-item
+        {
+            padding: 0 1.5rem;
+            .nav-link
+            {
+                color: #acacac;
+                font-size: 1.7rem;
+                font-weight: 500;
+                transition: 0.3s;
+                font-weight: 600;
+            }
+        }
+    }
+    &-right
+    {
+        display: flex;
+        align-items: center;
+        button
+        {
+            display: flex;
+            align-items: center;
+            height: 40px;
+            line-height: 36px;
+            padding: .5rem 3rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: white;
+            letter-spacing: .05rem;
+            background: linear-gradient(90deg, rgba(154,44,222,1) 0%, rgba(255,48,254,1) 35%, rgba(192,12,67,0.9223039557619923) 100%, rgba(0,0,0,0.9951330874146533) 100%, rgba(107,35,61,1) 100%);
+        }
+        .sunlight
+        {
+            margin-left: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+            background:#FB5343;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+        }
+    }
+}

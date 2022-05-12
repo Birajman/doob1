@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,500&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import 'navbar';
+@import 'second__part';
+@import 'media';
+@import 'demo';
+@import 'footer-top';
+@import 'footer-bottom';
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body
+{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 h2 h3 h4 h5
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.background
+{
+    padding-bottom: 5rem;
+    background: rgb(22,28,25);
+background: radial-gradient(circle, rgba(22,28,25,1) 0%, rgba(6,6,6,1) 85%, rgba(6,6,6,1) 85%, rgba(191,47,96,1) 97%, rgba(246,56,120,1) 100%);
+}
+.footer_background
+{
+    background-color: #0F0F11;
+}

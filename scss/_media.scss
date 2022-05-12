@@ -1,0 +1,105 @@
+@media (max-width:800px) {
+    .navbar
+    {
+        .navbar-nav
+        {
+            text-align: center;
+            padding: 2rem 0;
+            .nav-item
+            {
+                .nav-link
+                {
+                    transition: 1s;
+                    &:hover
+                    {
+                    background: linear-gradient(90deg, rgba(154,44,222,1) 0%, rgba(255,48,254,1) 35%, rgba(192,12,67,0.9223039557619923) 100%, rgba(0,0,0,0.9951330874146533) 100%, rgba(107,35,61,1) 100%);
+                    background-clip: text;
+                    color: transparent;
+                    transform: translateX(1rem);
+                    }    
+                }
+            }
+        }
+        .navbar-right
+        {
+            display: none;
+        }
+    }
+    .container
+    {
+        .second__part
+        {
+            padding-top: 10rem;
+            h1
+            {
+                padding-top: 2rem;
+                font-size: 6rem;
+            }
+            p
+            {
+                padding-top: 2rem;
+                font-size: 2rem;
+            }
+        }
+        .demo
+        {
+           h4
+           {
+               display: none;
+           }
+           h2
+           {
+            background: linear-gradient(90deg, rgba(154,44,222,1) 0%, rgba(255,48,254,1) 35%, rgba(192,12,67,0.9223039557619923) 100%, rgba(0,0,0,0.9951330874146533) 100%, rgba(107,35,61,1) 100%);
+            background-clip: text;
+            color: transparent; 
+            font-size: 5rem;
+            font-weight: 700; 
+           }
+           p
+           {
+               padding-top: 2rem;
+               font-size: 2rem;
+           }
+           .row
+           {
+               .col-lg-4
+               {
+                   flex-basis: 45%;
+                   &:nth-child(3)
+                   {
+                       display: none;
+                   }
+               }
+           }
+        }
+    }
+    .footer_background
+    {
+        .footer-top
+        {
+            padding-bottom: 3rem;
+            h6
+            {
+                margin-top: 2rem;
+                font-size: 2rem;
+            }
+            button
+            {
+                margin-top: 2rem;
+            }
+        }
+        .footer-bottom
+        {
+            ul
+            {
+                display: none;
+            }
+            p
+            {
+                flex-grow: 1;
+                text-align: center;
+            }
+        }
+    }
+    
+}
